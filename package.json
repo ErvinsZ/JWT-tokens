@@ -1,0 +1,30 @@
+{
+  "name": "JWT-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErvinsZ/JWT-tokens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErvinsZ/JWT-tokens/issues"
+  },
+  "homepage": "https://github.com/ErvinsZ/JWT-tokens#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "epxress": "0.0.1-security",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
